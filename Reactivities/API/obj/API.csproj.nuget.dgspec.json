@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\桌面\\side_project\\github\\CoreReactBlog\\Reactivities\\API\\API.csproj": {}
+    "D:\\桌面\\side_project\\github\\CoreReactBlog\\Reactivities\\api\\API.csproj": {}
   },
   "projects": {
-    "D:\\桌面\\side_project\\github\\CoreReactBlog\\Reactivities\\API\\API.csproj": {
+    "D:\\桌面\\side_project\\github\\CoreReactBlog\\Reactivities\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\桌面\\side_project\\github\\CoreReactBlog\\Reactivities\\API\\API.csproj",
+        "projectUniqueName": "D:\\桌面\\side_project\\github\\CoreReactBlog\\Reactivities\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\桌面\\side_project\\github\\CoreReactBlog\\Reactivities\\API\\API.csproj",
+        "projectPath": "D:\\桌面\\side_project\\github\\CoreReactBlog\\Reactivities\\api\\API.csproj",
         "packagesPath": "C:\\Users\\kuei\\.nuget\\packages\\",
-        "outputPath": "D:\\桌面\\side_project\\github\\CoreReactBlog\\Reactivities\\API\\obj\\",
+        "outputPath": "D:\\桌面\\side_project\\github\\CoreReactBlog\\Reactivities\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kuei\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,7 +27,11 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\桌面\\side_project\\github\\CoreReactBlog\\Reactivities\\Application\\Application.csproj": {
+                "projectPath": "D:\\桌面\\side_project\\github\\CoreReactBlog\\Reactivities\\Application\\Application.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -59,6 +63,176 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\桌面\\side_project\\github\\CoreReactBlog\\Reactivities\\Application\\Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\桌面\\side_project\\github\\CoreReactBlog\\Reactivities\\Application\\Application.csproj",
+        "projectName": "Application",
+        "projectPath": "D:\\桌面\\side_project\\github\\CoreReactBlog\\Reactivities\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\kuei\\.nuget\\packages\\",
+        "outputPath": "D:\\桌面\\side_project\\github\\CoreReactBlog\\Reactivities\\Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kuei\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\桌面\\side_project\\github\\CoreReactBlog\\Reactivities\\Persistence\\Persistence.csproj": {
+                "projectPath": "D:\\桌面\\side_project\\github\\CoreReactBlog\\Reactivities\\Persistence\\Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\桌面\\side_project\\github\\CoreReactBlog\\Reactivities\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\桌面\\side_project\\github\\CoreReactBlog\\Reactivities\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "D:\\桌面\\side_project\\github\\CoreReactBlog\\Reactivities\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\kuei\\.nuget\\packages\\",
+        "outputPath": "D:\\桌面\\side_project\\github\\CoreReactBlog\\Reactivities\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kuei\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\桌面\\side_project\\github\\CoreReactBlog\\Reactivities\\Persistence\\Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\桌面\\side_project\\github\\CoreReactBlog\\Reactivities\\Persistence\\Persistence.csproj",
+        "projectName": "Persistence",
+        "projectPath": "D:\\桌面\\side_project\\github\\CoreReactBlog\\Reactivities\\Persistence\\Persistence.csproj",
+        "packagesPath": "C:\\Users\\kuei\\.nuget\\packages\\",
+        "outputPath": "D:\\桌面\\side_project\\github\\CoreReactBlog\\Reactivities\\Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kuei\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\桌面\\side_project\\github\\CoreReactBlog\\Reactivities\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\桌面\\side_project\\github\\CoreReactBlog\\Reactivities\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

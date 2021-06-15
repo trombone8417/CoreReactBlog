@@ -1,0 +1,17 @@
+D:\桌面\side_project\github\CoreReactBlog\Reactivities\Application\bin\Debug\net5.0\Application.deps.json
+D:\桌面\side_project\github\CoreReactBlog\Reactivities\Application\bin\Debug\net5.0\Application.dll
+D:\桌面\side_project\github\CoreReactBlog\Reactivities\Application\bin\Debug\net5.0\ref\Application.dll
+D:\桌面\side_project\github\CoreReactBlog\Reactivities\Application\bin\Debug\net5.0\Application.pdb
+D:\桌面\side_project\github\CoreReactBlog\Reactivities\Application\bin\Debug\net5.0\Domain.dll
+D:\桌面\side_project\github\CoreReactBlog\Reactivities\Application\bin\Debug\net5.0\Persistence.dll
+D:\桌面\side_project\github\CoreReactBlog\Reactivities\Application\bin\Debug\net5.0\Persistence.pdb
+D:\桌面\side_project\github\CoreReactBlog\Reactivities\Application\bin\Debug\net5.0\Domain.pdb
+D:\桌面\side_project\github\CoreReactBlog\Reactivities\Application\obj\Debug\net5.0\Application.csprojAssemblyReference.cache
+D:\桌面\side_project\github\CoreReactBlog\Reactivities\Application\obj\Debug\net5.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\桌面\side_project\github\CoreReactBlog\Reactivities\Application\obj\Debug\net5.0\Application.AssemblyInfoInputs.cache
+D:\桌面\side_project\github\CoreReactBlog\Reactivities\Application\obj\Debug\net5.0\Application.AssemblyInfo.cs
+D:\桌面\side_project\github\CoreReactBlog\Reactivities\Application\obj\Debug\net5.0\Application.csproj.CoreCompileInputs.cache
+D:\桌面\side_project\github\CoreReactBlog\Reactivities\Application\obj\Debug\net5.0\Application.csproj.CopyComplete
+D:\桌面\side_project\github\CoreReactBlog\Reactivities\Application\obj\Debug\net5.0\Application.dll
+D:\桌面\side_project\github\CoreReactBlog\Reactivities\Application\obj\Debug\net5.0\ref\Application.dll
+D:\桌面\side_project\github\CoreReactBlog\Reactivities\Application\obj\Debug\net5.0\Application.pdb

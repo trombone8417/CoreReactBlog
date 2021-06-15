@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "U8dSxtHjzNC4eJqJI7Suu62jtpiDa7u/Ktt69y4vc+93TCxFlrTGF5eo8vp5UPggGOzsS8AHQGqkokf/wmFTbw==",
+  "dgSpecHash": "RnSaMpyYvjTlYskx5BiTKayFUcFP7NVK7oXaKGz/9vaXMwc7ov37qPpHd9+V2DHzb9eWqZ6UJKrf/jRfyoIbZw==",
   "success": true,
-  "projectFilePath": "D:\\桌面\\side_project\\github\\CoreReactBlog\\Reactivities\\API\\API.csproj",
+  "projectFilePath": "D:\\桌面\\side_project\\github\\CoreReactBlog\\Reactivities\\api\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kuei\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\kuei\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
