@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "F6xC1dSLj3G9655wUzw/1PdAJ91vF0gAg4Z0dWEvlYRMQ8YJEs+T/fKTBKLs8Nwmj0tWfzz2PdXnUfeYq1WYoA==",
+  "dgSpecHash": "1HXuh/j2moY7UbRMla0opGFCFj3XehYxLpmhnx2EoaGaKFQtb28/162n19eD94r06KfPjqCCbIUtlbaQg0eGrg==",
   "success": true,
   "projectFilePath": "D:\\桌面\\side_project\\github\\CoreReactBlog\\Reactivities\\api\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kuei\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\kuei\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
+    "C:\\Users\\kuei\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
     "C:\\Users\\kuei\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\kuei\\.nuget\\packages\\microsoft.data.sqlite.core\\5.0.1\\microsoft.data.sqlite.core.5.0.1.nupkg.sha512",
     "C:\\Users\\kuei\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\3.1.6\\microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512",
