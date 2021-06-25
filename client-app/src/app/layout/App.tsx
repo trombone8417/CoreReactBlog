@@ -6,13 +6,15 @@ import ActivityDashboard from '../features/activities/dashboard/ActivityDashboar
 import { v4 as uuid } from 'uuid';
 import agent from '../api/agent';
 import LoadingComponent from './LoadingComponent';
+import { useStore } from '../stores/store';
 
 function App() {
+  const { activityStore } = useStore();
   const [activities, setActivities] = useState<Activity[]>([]);
   const [selectedActivity, setSelectedActivity] = useState<Activity | undefined>(undefined);
   const [editMode, setEditMode] = useState(false);
-  const [loading,setLoading] = useState(true);
-  const [submitting,setSubmitting] = useState(false);
+  const [loading, setLoading] = useState(true);
+  const [submitting, setSubmitting] = useState(false);
 
   useEffect(() => {
     agent.Activities.list().then(response => {
@@ -45,18 +47,18 @@ function App() {
 
   function handleCreateOrEditActivity(activity: Activity) {
     setSubmitting(true);
-    if (activity.id){
-      agent.Activities.update(activity).then(() =>{
+    if (activity.id) {
+      agent.Activities.update(activity).then(() => {
         setActivities([...activities.filter(x => x.id !== activity.id), activity])
         setSelectedActivity(activity);
         setEditMode(false);
         setSubmitting(false);
       })
     }
-    else{
-      activity.id =uuid();
-      agent.Activities.create(activity).then(() =>{
-        setActivities([...activities,{...activity,id:uuid()}])
+    else {
+      activity.id = uuid();
+      agent.Activities.create(activity).then(() => {
+        setActivities([...activities, { ...activity, id: uuid() }])
         setSelectedActivity(activity);
         setEditMode(false);
         setSubmitting(false);
@@ -67,7 +69,7 @@ function App() {
   function handleDeleteActivity(id: string) {
     setSubmitting(true);
     agent.Activities.delete(id).then(() => {
-      setActivities([...activities.filter(x=>x.id!==id)]);
+      setActivities([...activities.filter(x => x.id !== id)]);
       setSubmitting(false);
     })
   }
@@ -76,8 +78,9 @@ function App() {
 
   return (
     <>
+      <NavBar openForm={handleFormOpen} />
       <Container style={{ marginTop: '7em' }}>
-        <NavBar openForm={handleFormOpen} />
+        <h2>{activityStore.title}</h2>
         <ActivityDashboard
           activities={activities}
           selectedActivity={selectedActivity}
