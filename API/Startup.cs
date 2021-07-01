@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using API.Controllers.Extensions;
+using API.Extensions;
 using API.Middleware;
 using Application.Activities;
 using Application.Core;
@@ -40,6 +41,7 @@ namespace API
                 config.RegisterValidatorsFromAssemblyContaining<Create>();
             });
             services.AddApplicationServices(_config);
+            services.AddIdentityService(_config);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
