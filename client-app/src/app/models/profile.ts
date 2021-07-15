@@ -19,5 +19,5 @@ export class Profile implements Profile{
 export interface Photo {
     id:string;
     url:string;
-    inMain:boolean;
+    isMain:boolean;
 }
